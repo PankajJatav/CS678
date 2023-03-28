@@ -1,0 +1,681 @@
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 5, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-5e.txt', 'test_out': 'sst-test-ft-output-5e.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-5-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-5-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-5-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-5-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-5-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+load model from finetune-5-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.480
+test acc :: 0.511
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-10e.txt', 'test_out': 'sst-test-ft-output-10e.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 15, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-15e.txt', 'test_out': 'sst-test-ft-output-15e.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-15-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-15-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-15-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-15-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-15-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-15-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+epoch 10: train loss :: 0.703, train acc :: 0.710, dev acc :: 0.465
+epoch 11: train loss :: 0.641, train acc :: 0.771, dev acc :: 0.490
+epoch 12: train loss :: 0.575, train acc :: 0.728, dev acc :: 0.455
+epoch 13: train loss :: 0.534, train acc :: 0.797, dev acc :: 0.473
+epoch 14: train loss :: 0.468, train acc :: 0.814, dev acc :: 0.479
+load model from finetune-15-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 20, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-20e.txt', 'test_out': 'sst-test-ft-output-20e.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-20-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-20-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-20-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-20-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-20-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-20-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+epoch 10: train loss :: 0.703, train acc :: 0.710, dev acc :: 0.465
+epoch 11: train loss :: 0.641, train acc :: 0.771, dev acc :: 0.490
+epoch 12: train loss :: 0.575, train acc :: 0.728, dev acc :: 0.455
+epoch 13: train loss :: 0.534, train acc :: 0.797, dev acc :: 0.473
+epoch 14: train loss :: 0.468, train acc :: 0.814, dev acc :: 0.479
+epoch 15: train loss :: 0.435, train acc :: 0.736, dev acc :: 0.431
+epoch 16: train loss :: 0.395, train acc :: 0.828, dev acc :: 0.461
+epoch 17: train loss :: 0.359, train acc :: 0.874, dev acc :: 0.464
+epoch 18: train loss :: 0.325, train acc :: 0.882, dev acc :: 0.463
+epoch 19: train loss :: 0.293, train acc :: 0.886, dev acc :: 0.459
+load model from finetune-20-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 25, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-25e.txt', 'test_out': 'sst-test-ft-output-25e.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-25-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-25-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-25-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-25-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-25-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-25-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+epoch 10: train loss :: 0.703, train acc :: 0.710, dev acc :: 0.465
+epoch 11: train loss :: 0.641, train acc :: 0.771, dev acc :: 0.490
+epoch 12: train loss :: 0.575, train acc :: 0.728, dev acc :: 0.455
+epoch 13: train loss :: 0.534, train acc :: 0.797, dev acc :: 0.473
+epoch 14: train loss :: 0.468, train acc :: 0.814, dev acc :: 0.479
+epoch 15: train loss :: 0.435, train acc :: 0.736, dev acc :: 0.431
+epoch 16: train loss :: 0.395, train acc :: 0.828, dev acc :: 0.461
+epoch 17: train loss :: 0.359, train acc :: 0.874, dev acc :: 0.464
+epoch 18: train loss :: 0.325, train acc :: 0.882, dev acc :: 0.463
+epoch 19: train loss :: 0.293, train acc :: 0.886, dev acc :: 0.459
+epoch 20: train loss :: 0.266, train acc :: 0.924, dev acc :: 0.474
+epoch 21: train loss :: 0.233, train acc :: 0.913, dev acc :: 0.464
+epoch 22: train loss :: 0.216, train acc :: 0.938, dev acc :: 0.452
+epoch 23: train loss :: 0.204, train acc :: 0.822, dev acc :: 0.430
+epoch 24: train loss :: 0.179, train acc :: 0.923, dev acc :: 0.466
+load model from finetune-25-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-d1.txt', 'test_out': 'sst-test-ft-output-d1.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.1, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.548, train acc :: 0.444, dev acc :: 0.431
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.308, train acc :: 0.489, dev acc :: 0.444
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.172, train acc :: 0.526, dev acc :: 0.467
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.093, train acc :: 0.564, dev acc :: 0.491
+epoch 4: train loss :: 1.021, train acc :: 0.570, dev acc :: 0.490
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 0.965, train acc :: 0.649, dev acc :: 0.512
+epoch 6: train loss :: 0.904, train acc :: 0.588, dev acc :: 0.479
+epoch 7: train loss :: 0.840, train acc :: 0.654, dev acc :: 0.479
+epoch 8: train loss :: 0.784, train acc :: 0.674, dev acc :: 0.498
+epoch 9: train loss :: 0.724, train acc :: 0.726, dev acc :: 0.484
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.512
+test acc :: 0.533
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-d3.txt', 'test_out': 'sst-test-ft-output-d3.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-d5.txt', 'test_out': 'sst-test-ft-output-d5.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.5, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.603, train acc :: 0.347, dev acc :: 0.341
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.504, train acc :: 0.430, dev acc :: 0.392
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.309, train acc :: 0.491, dev acc :: 0.441
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.195, train acc :: 0.536, dev acc :: 0.469
+epoch 4: train loss :: 1.116, train acc :: 0.528, dev acc :: 0.460
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.056, train acc :: 0.628, dev acc :: 0.520
+epoch 6: train loss :: 0.989, train acc :: 0.578, dev acc :: 0.490
+epoch 7: train loss :: 0.925, train acc :: 0.624, dev acc :: 0.490
+epoch 8: train loss :: 0.866, train acc :: 0.663, dev acc :: 0.490
+epoch 9: train loss :: 0.802, train acc :: 0.721, dev acc :: 0.500
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.524
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-d7.txt', 'test_out': 'sst-test-ft-output-d7.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.7, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.622, train acc :: 0.360, dev acc :: 0.351
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.496, train acc :: 0.450, dev acc :: 0.412
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.310, train acc :: 0.464, dev acc :: 0.430
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.197, train acc :: 0.525, dev acc :: 0.460
+epoch 4: train loss :: 1.114, train acc :: 0.508, dev acc :: 0.441
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.058, train acc :: 0.616, dev acc :: 0.501
+epoch 6: train loss :: 0.996, train acc :: 0.553, dev acc :: 0.469
+epoch 7: train loss :: 0.936, train acc :: 0.613, dev acc :: 0.474
+save the model to finetune-10-1e-05.pt
+epoch 8: train loss :: 0.872, train acc :: 0.656, dev acc :: 0.509
+epoch 9: train loss :: 0.811, train acc :: 0.719, dev acc :: 0.507
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.509
+test acc :: 0.536
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-d9.txt', 'test_out': 'sst-test-ft-output-d9.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.9, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.731, train acc :: 0.314, dev acc :: 0.299
+epoch 1: train loss :: 1.644, train acc :: 0.281, dev acc :: 0.266
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.606, train acc :: 0.424, dev acc :: 0.408
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.443, train acc :: 0.453, dev acc :: 0.430
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.308, train acc :: 0.451, dev acc :: 0.439
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.224, train acc :: 0.552, dev acc :: 0.489
+epoch 6: train loss :: 1.152, train acc :: 0.530, dev acc :: 0.444
+epoch 7: train loss :: 1.091, train acc :: 0.591, dev acc :: 0.480
+epoch 8: train loss :: 1.040, train acc :: 0.590, dev acc :: 0.466
+epoch 9: train loss :: 0.965, train acc :: 0.645, dev acc :: 0.477
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.489
+test acc :: 0.511
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-lr1.txt', 'test_out': 'sst-test-ft-output-lr1.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 0.5}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-0.5.pt
+epoch 0: train loss :: 137.853, train acc :: 0.151, dev acc :: 0.150
+epoch 1: train loss :: 158.218, train acc :: 0.151, dev acc :: 0.150
+save the model to finetune-10-0.5.pt
+epoch 2: train loss :: 148.068, train acc :: 0.272, dev acc :: 0.253
+save the model to finetune-10-0.5.pt
+epoch 3: train loss :: 160.194, train acc :: 0.260, dev acc :: 0.262
+epoch 4: train loss :: 167.095, train acc :: 0.272, dev acc :: 0.253
+epoch 5: train loss :: 149.551, train acc :: 0.190, dev acc :: 0.208
+epoch 6: train loss :: 161.976, train acc :: 0.260, dev acc :: 0.262
+epoch 7: train loss :: 161.338, train acc :: 0.272, dev acc :: 0.253
+epoch 8: train loss :: 155.631, train acc :: 0.151, dev acc :: 0.150
+epoch 9: train loss :: 161.615, train acc :: 0.260, dev acc :: 0.262
+load model from finetune-10-0.5.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.262
+test acc :: 0.286
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-lr2.txt', 'test_out': 'sst-test-ft-output-lr2.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 0.1}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-0.1.pt
+epoch 0: train loss :: 24.924, train acc :: 0.272, dev acc :: 0.253
+epoch 1: train loss :: 30.641, train acc :: 0.272, dev acc :: 0.253
+save the model to finetune-10-0.1.pt
+epoch 2: train loss :: 28.990, train acc :: 0.260, dev acc :: 0.262
+epoch 3: train loss :: 29.598, train acc :: 0.272, dev acc :: 0.253
+epoch 4: train loss :: 33.264, train acc :: 0.128, dev acc :: 0.126
+epoch 5: train loss :: 28.759, train acc :: 0.190, dev acc :: 0.208
+epoch 6: train loss :: 30.040, train acc :: 0.260, dev acc :: 0.262
+epoch 7: train loss :: 31.885, train acc :: 0.128, dev acc :: 0.126
+epoch 8: train loss :: 30.865, train acc :: 0.151, dev acc :: 0.150
+epoch 9: train loss :: 31.228, train acc :: 0.190, dev acc :: 0.208
+load model from finetune-10-0.1.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.262
+test acc :: 0.286
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-lr3.txt', 'test_out': 'sst-test-ft-output-lr3.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 0.001}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-0.001.pt
+epoch 0: train loss :: 1.735, train acc :: 0.260, dev acc :: 0.262
+epoch 1: train loss :: 1.725, train acc :: 0.260, dev acc :: 0.262
+epoch 2: train loss :: 1.718, train acc :: 0.272, dev acc :: 0.253
+epoch 3: train loss :: 1.715, train acc :: 0.260, dev acc :: 0.262
+epoch 4: train loss :: 1.717, train acc :: 0.151, dev acc :: 0.150
+epoch 5: train loss :: 1.715, train acc :: 0.190, dev acc :: 0.208
+epoch 6: train loss :: 1.711, train acc :: 0.272, dev acc :: 0.253
+epoch 7: train loss :: 1.725, train acc :: 0.260, dev acc :: 0.262
+epoch 8: train loss :: 1.720, train acc :: 0.151, dev acc :: 0.150
+epoch 9: train loss :: 1.737, train acc :: 0.272, dev acc :: 0.253
+load model from finetune-10-0.001.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.262
+test acc :: 0.286
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-lr4.txt', 'test_out': 'sst-test-ft-output-lr4.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-lr5.txt', 'test_out': 'sst-test-ft-output-lr5.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-07}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-07.pt
+epoch 0: train loss :: 1.656, train acc :: 0.151, dev acc :: 0.146
+save the model to finetune-10-1e-07.pt
+epoch 1: train loss :: 1.640, train acc :: 0.152, dev acc :: 0.149
+save the model to finetune-10-1e-07.pt
+epoch 2: train loss :: 1.627, train acc :: 0.154, dev acc :: 0.151
+save the model to finetune-10-1e-07.pt
+epoch 3: train loss :: 1.622, train acc :: 0.159, dev acc :: 0.156
+save the model to finetune-10-1e-07.pt
+epoch 4: train loss :: 1.612, train acc :: 0.169, dev acc :: 0.158
+save the model to finetune-10-1e-07.pt
+epoch 5: train loss :: 1.608, train acc :: 0.186, dev acc :: 0.166
+save the model to finetune-10-1e-07.pt
+epoch 6: train loss :: 1.606, train acc :: 0.203, dev acc :: 0.193
+save the model to finetune-10-1e-07.pt
+epoch 7: train loss :: 1.603, train acc :: 0.228, dev acc :: 0.209
+save the model to finetune-10-1e-07.pt
+epoch 8: train loss :: 1.601, train acc :: 0.250, dev acc :: 0.231
+save the model to finetune-10-1e-07.pt
+epoch 9: train loss :: 1.595, train acc :: 0.267, dev acc :: 0.243
+load model from finetune-10-1e-07.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.243
+test acc :: 0.262
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-b2.txt', 'test_out': 'sst-test-ft-output-b2.txt', 'batch_size': 2, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.501, train acc :: 0.472, dev acc :: 0.450
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.265, train acc :: 0.516, dev acc :: 0.465
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.140, train acc :: 0.555, dev acc :: 0.476
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.031, train acc :: 0.601, dev acc :: 0.484
+epoch 4: train loss :: 0.942, train acc :: 0.612, dev acc :: 0.484
+epoch 5: train loss :: 0.851, train acc :: 0.713, dev acc :: 0.483
+save the model to finetune-10-1e-05.pt
+epoch 6: train loss :: 0.752, train acc :: 0.758, dev acc :: 0.492
+epoch 7: train loss :: 0.666, train acc :: 0.781, dev acc :: 0.476
+epoch 8: train loss :: 0.580, train acc :: 0.751, dev acc :: 0.460
+epoch 9: train loss :: 0.510, train acc :: 0.835, dev acc :: 0.468
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.492
+test acc :: 0.511
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-b4.txt', 'test_out': 'sst-test-ft-output-b4.txt', 'batch_size': 4, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.588, train acc :: 0.263, dev acc :: 0.264
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.446, train acc :: 0.477, dev acc :: 0.456
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.245, train acc :: 0.513, dev acc :: 0.471
+epoch 3: train loss :: 1.143, train acc :: 0.553, dev acc :: 0.466
+epoch 4: train loss :: 1.056, train acc :: 0.537, dev acc :: 0.467
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 0.983, train acc :: 0.655, dev acc :: 0.515
+epoch 6: train loss :: 0.897, train acc :: 0.670, dev acc :: 0.503
+epoch 7: train loss :: 0.836, train acc :: 0.638, dev acc :: 0.475
+epoch 8: train loss :: 0.757, train acc :: 0.657, dev acc :: 0.477
+epoch 9: train loss :: 0.703, train acc :: 0.742, dev acc :: 0.482
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.515
+test acc :: 0.517
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-b8.txt', 'test_out': 'sst-test-ft-output-b8.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.570, train acc :: 0.408, dev acc :: 0.395
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.347, train acc :: 0.478, dev acc :: 0.441
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.211, train acc :: 0.507, dev acc :: 0.444
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.123, train acc :: 0.550, dev acc :: 0.476
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.053, train acc :: 0.549, dev acc :: 0.480
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 0.997, train acc :: 0.634, dev acc :: 0.520
+epoch 6: train loss :: 0.938, train acc :: 0.556, dev acc :: 0.462
+epoch 7: train loss :: 0.873, train acc :: 0.635, dev acc :: 0.480
+epoch 8: train loss :: 0.816, train acc :: 0.657, dev acc :: 0.503
+epoch 9: train loss :: 0.752, train acc :: 0.715, dev acc :: 0.486
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.520
+test acc :: 0.519
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-b16.txt', 'test_out': 'sst-test-ft-output-b16.txt', 'batch_size': 16, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.587, train acc :: 0.354, dev acc :: 0.342
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.451, train acc :: 0.433, dev acc :: 0.399
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.283, train acc :: 0.488, dev acc :: 0.449
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.202, train acc :: 0.514, dev acc :: 0.461
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.146, train acc :: 0.518, dev acc :: 0.480
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.079, train acc :: 0.574, dev acc :: 0.500
+epoch 6: train loss :: 1.042, train acc :: 0.578, dev acc :: 0.494
+save the model to finetune-10-1e-05.pt
+epoch 7: train loss :: 0.989, train acc :: 0.616, dev acc :: 0.510
+epoch 8: train loss :: 0.948, train acc :: 0.591, dev acc :: 0.490
+epoch 9: train loss :: 0.903, train acc :: 0.598, dev acc :: 0.496
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.510
+test acc :: 0.509
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'dev_out': 'sst-dev-ft-output-b32.txt', 'test_out': 'sst-test-ft-output-b32.txt', 'batch_size': 32, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.589, train acc :: 0.339, dev acc :: 0.330
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.554, train acc :: 0.391, dev acc :: 0.374
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.407, train acc :: 0.415, dev acc :: 0.395
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.292, train acc :: 0.464, dev acc :: 0.435
+save the model to finetune-10-1e-05.pt
+epoch 4: train loss :: 1.211, train acc :: 0.487, dev acc :: 0.442
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.159, train acc :: 0.517, dev acc :: 0.466
+epoch 6: train loss :: 1.112, train acc :: 0.500, dev acc :: 0.449
+save the model to finetune-10-1e-05.pt
+epoch 7: train loss :: 1.071, train acc :: 0.545, dev acc :: 0.477
+save the model to finetune-10-1e-05.pt
+epoch 8: train loss :: 1.020, train acc :: 0.586, dev acc :: 0.494
+epoch 9: train loss :: 0.996, train acc :: 0.585, dev acc :: 0.483
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.494
+test acc :: 0.507
+
+
+est_out sst-test-ft-output-b98_e9.txt
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'use_paper_adam': False, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 4000, 'dev_out': 'sst-dev-ft-output-b98_e9.txt', 'test_out': 'sst-test-ft-output-b98_e9.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.555, train acc :: 0.431, dev acc :: 0.415
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.339, train acc :: 0.486, dev acc :: 0.453
+epoch 2: train loss :: 1.223, train acc :: 0.504, dev acc :: 0.451
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.155, train acc :: 0.551, dev acc :: 0.488
+epoch 4: train loss :: 1.088, train acc :: 0.543, dev acc :: 0.466
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.043, train acc :: 0.616, dev acc :: 0.510
+epoch 6: train loss :: 0.996, train acc :: 0.557, dev acc :: 0.490
+epoch 7: train loss :: 0.931, train acc :: 0.622, dev acc :: 0.482
+epoch 8: train loss :: 0.887, train acc :: 0.630, dev acc :: 0.493
+epoch 9: train loss :: 0.840, train acc :: 0.706, dev acc :: 0.498
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.510
+test acc :: 0.531
+
+
+
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'use_paper_adam': True, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 2000, 'dev_out': 'sst-dev-ft-output-w2.txt', 'test_out': 'sst-test-ft-output-w2.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+Inside CustAdam 2000 0.9 0.98 1e-08
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.602, train acc :: 0.260, dev acc :: 0.262
+epoch 1: train loss :: 1.593, train acc :: 0.272, dev acc :: 0.253
+epoch 2: train loss :: 1.578, train acc :: 0.260, dev acc :: 0.262
+epoch 3: train loss :: 1.576, train acc :: 0.260, dev acc :: 0.262
+epoch 4: train loss :: 1.575, train acc :: 0.260, dev acc :: 0.262
+epoch 5: train loss :: 1.574, train acc :: 0.260, dev acc :: 0.262
+epoch 6: train loss :: 1.574, train acc :: 0.260, dev acc :: 0.262
+epoch 7: train loss :: 1.572, train acc :: 0.272, dev acc :: 0.253
+epoch 8: train loss :: 1.575, train acc :: 0.272, dev acc :: 0.253
+epoch 9: train loss :: 1.572, train acc :: 0.272, dev acc :: 0.253
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.262
+test acc :: 0.286
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'use_paper_adam': True, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 4000, 'dev_out': 'sst-dev-ft-output-w4.txt', 'test_out': 'sst-test-ft-output-w4.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+Inside CustAdam 4000 0.9 0.98 1e-08
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.598, train acc :: 0.368, dev acc :: 0.348
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.428, train acc :: 0.452, dev acc :: 0.418
+epoch 2: train loss :: 1.311, train acc :: 0.472, dev acc :: 0.416
+epoch 3: train loss :: 1.463, train acc :: 0.260, dev acc :: 0.262
+epoch 4: train loss :: 1.598, train acc :: 0.260, dev acc :: 0.262
+epoch 5: train loss :: 1.586, train acc :: 0.260, dev acc :: 0.262
+epoch 6: train loss :: 1.580, train acc :: 0.260, dev acc :: 0.262
+epoch 7: train loss :: 1.578, train acc :: 0.260, dev acc :: 0.262
+epoch 8: train loss :: 1.578, train acc :: 0.260, dev acc :: 0.262
+epoch 9: train loss :: 1.576, train acc :: 0.272, dev acc :: 0.253
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.418
+test acc :: 0.441
+
+
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'use_paper_adam': True, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 8000, 'dev_out': 'sst-dev-ft-output-w8.txt', 'test_out': 'sst-test-ft-output-w8.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+Inside CustAdam 8000 0.9 0.98 1e-08
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.608, train acc :: 0.355, dev acc :: 0.352
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.487, train acc :: 0.452, dev acc :: 0.419
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 1.279, train acc :: 0.530, dev acc :: 0.478
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.175, train acc :: 0.562, dev acc :: 0.483
+epoch 4: train loss :: 1.091, train acc :: 0.574, dev acc :: 0.470
+epoch 5: train loss :: 1.011, train acc :: 0.630, dev acc :: 0.483
+save the model to finetune-10-1e-05.pt
+epoch 6: train loss :: 0.947, train acc :: 0.700, dev acc :: 0.484
+epoch 7: train loss :: 0.856, train acc :: 0.675, dev acc :: 0.446
+epoch 8: train loss :: 0.761, train acc :: 0.735, dev acc :: 0.480
+epoch 9: train loss :: 0.651, train acc :: 0.790, dev acc :: 0.454
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.484
+test acc :: 0.483
+
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'use_paper_adam': False, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 4000, 'dev_out': 'sst-dev-output.txt', 'test_out': 'sst-test-output.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 1.555, train acc :: 0.431, dev acc :: 0.415
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 1.339, train acc :: 0.486, dev acc :: 0.453
+epoch 2: train loss :: 1.223, train acc :: 0.504, dev acc :: 0.451
+save the model to finetune-10-1e-05.pt
+epoch 3: train loss :: 1.155, train acc :: 0.551, dev acc :: 0.488
+epoch 4: train loss :: 1.088, train acc :: 0.543, dev acc :: 0.466
+save the model to finetune-10-1e-05.pt
+epoch 5: train loss :: 1.043, train acc :: 0.616, dev acc :: 0.510
+epoch 6: train loss :: 0.996, train acc :: 0.557, dev acc :: 0.490
+epoch 7: train loss :: 0.931, train acc :: 0.622, dev acc :: 0.482
+epoch 8: train loss :: 0.887, train acc :: 0.630, dev acc :: 0.493
+epoch 9: train loss :: 0.840, train acc :: 0.706, dev acc :: 0.498
+load model from finetune-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.510
+test acc :: 0.531
+
+
+args: {'train': 'data/cfimdb-train.txt', 'dev': 'data/cfimdb-dev.txt', 'test': 'data/cfimdb-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'finetune', 'use_gpu': True, 'use_paper_adam': False, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 4000, 'dev_out': 'cfimdb-dev-output.txt', 'test_out': 'cfimdb-test-output.txt', 'batch_size': 4, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 1707 data from data/cfimdb-train.txt
+load 245 data from data/cfimdb-dev.txt
+save the model to finetune-10-1e-05.pt
+epoch 0: train loss :: 0.700, train acc :: 0.501, dev acc :: 0.502
+save the model to finetune-10-1e-05.pt
+epoch 1: train loss :: 0.482, train acc :: 0.943, dev acc :: 0.910
+save the model to finetune-10-1e-05.pt
+epoch 2: train loss :: 0.219, train acc :: 0.974, dev acc :: 0.959
+epoch 3: train loss :: 0.159, train acc :: 0.980, dev acc :: 0.951
+epoch 4: train loss :: 0.116, train acc :: 0.985, dev acc :: 0.955
+epoch 5: train loss :: 0.100, train acc :: 0.989, dev acc :: 0.951
+save the model to finetune-10-1e-05.pt
+epoch 6: train loss :: 0.072, train acc :: 0.992, dev acc :: 0.967
+epoch 7: train loss :: 0.064, train acc :: 0.997, dev acc :: 0.947
+epoch 8: train loss :: 0.058, train acc :: 0.997, dev acc :: 0.951
+epoch 9: train loss :: 0.045, train acc :: 0.995, dev acc :: 0.935
+load model from finetune-10-1e-05.pt
+load 245 data from data/cfimdb-dev.txt
+load 488 data from data/cfimdb-test.txt
+dev acc :: 0.967
+test acc :: 0.504
+
+
+args: {'train': 'data/sst-train.txt', 'dev': 'data/sst-dev.txt', 'test': 'data/sst-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'pretrain', 'use_gpu': True, 'use_paper_adam': False, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 4000, 'dev_out': 'sst-pt-dev-output.txt', 'test_out': 'sst-pt-test-output.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 8544 data from data/sst-train.txt
+load 1101 data from data/sst-dev.txt
+save the model to pretrain-10-1e-05.pt
+epoch 0: train loss :: 1.610, train acc :: 0.286, dev acc :: 0.282
+save the model to pretrain-10-1e-05.pt
+epoch 1: train loss :: 1.596, train acc :: 0.308, dev acc :: 0.297
+save the model to pretrain-10-1e-05.pt
+epoch 2: train loss :: 1.590, train acc :: 0.312, dev acc :: 0.302
+epoch 3: train loss :: 1.592, train acc :: 0.284, dev acc :: 0.275
+save the model to pretrain-10-1e-05.pt
+epoch 4: train loss :: 1.586, train acc :: 0.320, dev acc :: 0.305
+epoch 5: train loss :: 1.586, train acc :: 0.304, dev acc :: 0.296
+epoch 6: train loss :: 1.589, train acc :: 0.297, dev acc :: 0.297
+epoch 7: train loss :: 1.588, train acc :: 0.267, dev acc :: 0.270
+save the model to pretrain-10-1e-05.pt
+epoch 8: train loss :: 1.585, train acc :: 0.318, dev acc :: 0.306
+epoch 9: train loss :: 1.582, train acc :: 0.321, dev acc :: 0.303
+load model from pretrain-10-1e-05.pt
+load 1101 data from data/sst-dev.txt
+load 2210 data from data/sst-test.txt
+dev acc :: 0.306
+test acc :: 0.296
+
+args: {'train': 'data/cfimdb-train.txt', 'dev': 'data/cfimdb-dev.txt', 'test': 'data/cfimdb-test.txt', 'seed': 11711, 'epochs': 10, 'option': 'pretrain', 'use_gpu': True, 'use_paper_adam': False, 'b1': 0.9, 'b2': 0.98, 'eps': 1e-08, 'warm_up': 4000, 'dev_out': 'cfimdb-pt-dev-output.txt', 'test_out': 'cfimdb-pt-test-output.txt', 'batch_size': 8, 'hidden_dropout_prob': 0.3, 'lr': 1e-05}
+load 1707 data from data/cfimdb-train.txt
+load 245 data from data/cfimdb-dev.txt
+save the model to pretrain-10-1e-05.pt
+epoch 0: train loss :: 0.710, train acc :: 0.501, dev acc :: 0.502
+epoch 1: train loss :: 0.704, train acc :: 0.500, dev acc :: 0.502
+epoch 2: train loss :: 0.711, train acc :: 0.499, dev acc :: 0.502
+epoch 3: train loss :: 0.699, train acc :: 0.499, dev acc :: 0.502
+epoch 4: train loss :: 0.711, train acc :: 0.499, dev acc :: 0.502
+epoch 5: train loss :: 0.705, train acc :: 0.498, dev acc :: 0.494
+epoch 6: train loss :: 0.703, train acc :: 0.496, dev acc :: 0.490
+epoch 7: train loss :: 0.706, train acc :: 0.494, dev acc :: 0.490
+epoch 8: train loss :: 0.707, train acc :: 0.497, dev acc :: 0.490
+epoch 9: train loss :: 0.705, train acc :: 0.495, dev acc :: 0.490
+load model from pretrain-10-1e-05.pt
+load 245 data from data/cfimdb-dev.txt
+load 488 data from data/cfimdb-test.txt
+dev acc :: 0.502
+test acc :: 1.000
+
